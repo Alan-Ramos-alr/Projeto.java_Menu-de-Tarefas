@@ -1,0 +1,63 @@
+import java.util.Scanner;
+
+    public class Main {
+        public static void main(String[] args) {
+
+                     // escolha uma opção do menu :
+
+
+            System.out.println("escolha uma opção do menu de tarefas: \n");
+            System.out.println(" 1 Tarefa simples:  ");
+            System.out.println(" 2 Tarefa com prazo:");
+            System.out.println(" 3 Todas as tarefas: ");
+            System.out.println(" 4 Alterar status de uma tarefa : ");
+            System.out.println(" 5 Remover tarefas : ");
+            System.out.println(" 6 Sair :\n ");
+            System.out.print(" \n esolha uma opção: ");
+
+
+            Scanner número = new Scanner(System.in);
+            double num = número.nextDouble();
+
+
+                     // colocar if para selecionar o menu:
+
+
+                         if (num == 1) {
+                         System.out.print(" Tarefa simples:  ");
+                         Scanner numero1 = new Scanner(System.in);
+                         String número1 = número.next();
+                         double num1 = numero1.nextDouble();
+                     }
+                     do {
+
+                         System.out.println("digite um prazo: ");
+                         if (num == 2) {
+                             System.out.print(" Tarefa com prazo:");
+                             Scanner numero2 = new Scanner(System.in);
+                             double num2 = numero2.nextDouble();
+                         }
+                         if (num == 3) {
+                             System.out.print(" Todas as tarefas: ");
+                             Scanner numero3 = new Scanner(System.in);
+                             double num3 = numero3.nextDouble();
+                         }
+                         if (num == 4) {
+                             System.out.print(" Alterar status de uma tarefa : ");
+                             Scanner numero4 = new Scanner(System.in);
+                             double num4 = numero4.nextDouble();
+                         }
+                         if (num == 5) {
+                             System.out.print(" Remover tarefas : ");
+                             Scanner numero5 = new Scanner(System.in);
+                             double num5 = numero5.nextDouble();
+                         }
+                         if (num == 6) {
+                             System.out.print(" Sair :\n ");
+                             Scanner numero6 = new Scanner(System.in);
+                             double num6 = numero6.nextDouble();
+                         }
+                     }
+                            while (num != 6);
+                 }
+             }
